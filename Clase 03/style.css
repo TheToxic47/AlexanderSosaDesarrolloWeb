@@ -1,0 +1,23 @@
+body{
+background-color: #FFC300
+
+}
+
+h1{
+    background-color: orange;
+    color: green;
+    padding: 20px;
+    border-radius:20px;
+}
+
+h2{
+background-color: red;
+color: #F1C40F;
+PADDING: 10px;
+border: black 2px solid;
+
+}
+.parrafo_especial {
+font family: "Courier New", monospace
+
+}
