@@ -1,0 +1,91 @@
+body{
+    height:100vh;
+    width:100%;
+    background-color: #131f27;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+}
+
+.calculadora{
+    background-color: #00a08e;
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,1);
+}
+
+.numeros{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(59, 59, 59);
+    border-radius:10px;
+}
+
+#resultado{
+    margin: 3px 10px;
+    height:50%;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+}
+
+#calculo{
+    margin: 3px 10px;
+    height:50%;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+.botones{
+    width:100%;
+    height:300px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.f1,.f2, .f3, .f4, .f5{
+    width:100%;
+    height:20%;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+
+.f1 button,.f2 button, .f3 button, .f4 button{
+    width:25%;
+    border-radius: 5px;
+    background-color:#07ccb5;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+
+#suma, #resta, #producto, #division {
+    border-radius:50%;
+    width:20%;
+    height:100%;
+    background-color:#ffc158;
+}
+
+.f5 button{
+    width:100%;
+    border-radius: 5px;
+    background-color:#ccbee8;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+
+.f5 button:active, .f1 button:active,.f2 button:active, .f3 button:active, .f4 button:active{
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.0);
+    transition: all 0.3s;
+}
